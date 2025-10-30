@@ -1,0 +1,104 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* # */
+
+body {
+  font-family: 'Inter', sans-serif;
+  line-height: 1;
+}
+
+img {
+  width: 220px;
+  height: 220px;
+  object-fit: cover;
+  border-radius: 8px;
+  transform: scale(1.5);
+  box-shadow: 0 12px 32px rgba(0, 0, 0, 0.6);
+}
+
+.carousel {
+  width: 800px;
+  margin: 100px auto;
+  background-color: #087f5b;
+  border-radius: 8px;
+  color: white;
+  padding: 32px;
+  padding-left: 86px;
+  display: flex;
+  align-items: center;
+  gap: 90px;
+  position: relative;
+}
+
+.testimonial-text {
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 1.5;
+  margin-bottom: 32px;
+  color: white;
+}
+
+.testimonial-author {
+  font-size: 14px;
+  margin-bottom: 4px;
+}
+
+.testimonial-occupation {
+  font-size: 12px;
+}
+
+.btn {
+  background-color: white;
+  border: none;
+  height: 40px;
+  width: 40px;
+  border-radius: 50%;
+  box-shadow: 0 12px 22px rgba(0, 0, 0, 0.6);
+}
+
+.btn-left {
+  position: absolute;
+  left: -20px;
+  top: 50%;
+  transform: translate(0, -50%);
+}
+
+.btn-right {
+  position: absolute;
+  right: -20px;
+  top: 50%;
+  transform: translate(0, -50%);
+}
+
+.btn-icon {
+  width: 24px;
+  height: 24px;
+  cursor: pointer;
+  stroke: #087f5b;
+}
+
+.dots {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  position: absolute;
+  left: 50%;
+  bottom: -10%;
+}
+
+.dot {
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  border: 1px solid #087f5b;
+  background-color: white;
+  cursor: pointer;
+}
+
+.dots .filled {
+  background-color: #087f5b;
+}
