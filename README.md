@@ -19,13 +19,6 @@ Perfect for showcasing user or client feedback in a simple, elegant layout.
    ```bash
    git clone https://github.com/yourusername/carousel-component.git
 2. Open index.html in your browser.
-
-## 📁 Structure
-carousel-component/
-├── index.html
-├── style.css
-└── images/
-    └── professional-woman.jpg
     
 ## 👤 Author
 **Goga Gabelia**
